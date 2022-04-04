@@ -1,0 +1,41 @@
+/*@import "test.sass" ;*/
+
+.container{
+    width: 100% !important;
+    /* height: 50%; */
+    max-width: none !important;
+    max-height: 100%;
+  
+}
+.bas{
+    border-top: solid;
+    border-color: black;
+    margin-top: 2% !important   ;
+}
+
+.my-img{
+    max-width: 300px !important;
+    margin-top: 1%;
+}
+
+.profile-card{
+    width: 7% !important;
+   
+}
+
+.container2{
+    height: 40%;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://www.generation-game.com/wp-content/uploads/2019/06/plateau-de-jeu-mode-combat-tactique-league-of-legends-1024x576.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .2;
+    z-index: -1;
+}
