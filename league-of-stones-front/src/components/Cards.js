@@ -32,6 +32,7 @@ const Cards = () => {
       setdeck20(true);
     
     } else {
+      setdeck20(false)
       setdeckChampions([...deckChampions, champion]);
       if (index !== -1) {
         console.log("sup", index);
@@ -114,6 +115,8 @@ const Cards = () => {
     if(deckChampions.length==0){
       setdeckBool(false)
     }
+    setvalidationBoolDeck(false)
+    setdeck20(false)
   }
 
 
